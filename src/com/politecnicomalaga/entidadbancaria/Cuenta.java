@@ -16,7 +16,7 @@ public class Cuenta {
 		this.saldo = saldo;
 		this.fechaApertura = fechaApertura;
 		this.operaciones = new ArrayList<>();
-		this.clienteCuenta = null; // Inicialmente el cliente es null
+		this.clienteCuenta = null;
 	}
 
 	public String getCcc() {
